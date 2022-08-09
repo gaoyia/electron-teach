@@ -1,0 +1,30 @@
+{
+  "name": "electron-teach",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaoyia/electron-teach.git"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/*"
+    ]
+  },
+  "engines": {
+    "node": "14.20.0",
+    "yarn": "^1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaoyia/electron-teach/issues"
+  },
+  "homepage": "https://github.com/gaoyia/electron-teach#readme"
+}
